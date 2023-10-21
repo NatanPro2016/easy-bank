@@ -28,6 +28,9 @@ nav .wrapper {
   margin: 0 auto;
   height: 100px;
 }
+nav .mobile-nav ul {
+  display: none;
+}
 
 nav .icon {
   height: 25px;
@@ -203,11 +206,9 @@ p {
   }
 
   nav .mobile-nav {
-    box-shadow: 0 0 100px 35px hsla(233, 26%, 24%, 0.342);
     padding: 35px;
-    width: 90%;
+    width: 100vw;
     position: absolute;
-    margin: 20px;
     background: hsl(0, 0%, 100%);
     border-radius: 10px;
     transform: scaleY(0);
@@ -215,11 +216,10 @@ p {
     transform-origin: top;
   }
   nav.active .mobile-nav {
-    box-shadow: 0 0 100px 35px hsla(233, 26%, 24%, 0.342);
     padding: 35px;
-    width: 90%;
+    width: 100vw;
     position: absolute;
-    margin: 20px;
+
     background: hsl(0, 0%, 100%);
     border-radius: 10px;
     transition: transform 0.3s linear;
