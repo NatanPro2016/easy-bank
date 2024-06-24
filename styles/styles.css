@@ -21,7 +21,7 @@ nav {
   z-index: 2;
 }
 nav .wrapper {
-  width: 1440px;
+  width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,7 +79,7 @@ section .wrapper {
   margin: 0 auto;
 }
 .hero {
-  height: 900px;
+  height: 800px;
 }
 .hero .wrapper {
   display: flex;
@@ -118,7 +118,7 @@ p {
   background-position: 0% 0%;
 }
 .hero img {
-  height: 900px;
+  height: 850px;
   transform: translateX(20%);
 }
 .hero p {
