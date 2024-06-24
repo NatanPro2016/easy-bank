@@ -74,7 +74,7 @@ section:nth-child(even) {
   background-color: hsl(0, 0%, 98%);
 }
 section .wrapper {
-  width: 1440px;
+  width: 1200px;
 
   margin: 0 auto;
 }
@@ -190,7 +190,7 @@ p {
   margin: 10px 0;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1200px) {
   nav ul {
     display: none;
   }
